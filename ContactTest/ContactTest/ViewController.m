@@ -75,12 +75,19 @@
  * @discussion The picker will be dismissed automatically after a contact or property is picked.
  */
 - (void)contactPickerDidCancel:(CNContactPickerViewController *)picker{
+    NSLog(@"id : %@", picker);
     picker.delegate = nil;
 }
 
 /*!
  * @abstract Singular delegate methods.
  * @discussion These delegate methods will be invoked when the user selects a single contact or property.
+
+ * bstract Singular delegate methods.
+ * iscussion These delegate methods will be invoked when the user selects a single contact or property.
+
+ * stract Singular delegate methods.
+ * scussion These delegate methods will be invoked when the user selects a single contact or property.
  */
 - (void)contactPicker:(CNContactPickerViewController *)picker didSelectContact:(CNContact *)contact
 {

@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //[[UIApplication sharedApplication] setStatusBarStyle:<#(UIStatusBarStyle)#>]
+    //[[UIApplication sharedApplication] setStatusBarStyle:(UIStatusBarStyle)]
    // UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.LightContent, false);
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
