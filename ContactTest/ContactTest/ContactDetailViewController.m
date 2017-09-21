@@ -9,6 +9,8 @@
 #import "ContactDetailViewController.h"
 
 @interface ContactDetailViewController ()
+@property (weak) IBOutlet UIButton *button;
+
 
 @end
 
