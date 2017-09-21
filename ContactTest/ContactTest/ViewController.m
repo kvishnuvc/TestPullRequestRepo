@@ -69,7 +69,9 @@
  * @discussion The picker will be dismissed automatically after a contact or property is picked.
  */
 - (void)contactPickerDidCancel:(CNContactPickerViewController *)picker{
+    
     picker.delegate = nil;
+    
 }
 
 /*!
@@ -81,6 +83,7 @@
     _contact = contact;
     NSLog(@"contact id : %@", contact.identifier);
     picker.delegate = nil;
+    
 }
 
 - (void)contactPicker:(CNContactPickerViewController *)picker didSelectContactProperty:(CNContactProperty *)contactProperty{
