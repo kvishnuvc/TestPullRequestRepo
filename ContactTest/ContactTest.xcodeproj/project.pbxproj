@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */; };
+		FF0C26AA1F73CE1B006CF28D /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C26A91F73CE1B006CF28D /* Contact.m */; };
 		FF66B22F1E68248F00360E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B22E1E68248F00360E4A /* main.m */; };
 		FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2311E68248F00360E4A /* AppDelegate.m */; };
 		FF66B2351E68248F00360E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2341E68248F00360E4A /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		FF0C26A81F73CE1B006CF28D /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		FF0C26A91F73CE1B006CF28D /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		FF66B22A1E68248F00360E4A /* ContactTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF66B22E1E68248F00360E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF66B2301E68248F00360E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				FF66B22D1E68248F00360E4A /* Supporting Files */,
 				FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */,
 				FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */,
+				FF0C26A81F73CE1B006CF28D /* Contact.h */,
+				FF0C26A91F73CE1B006CF28D /* Contact.m */,
 			);
 			path = ContactTest;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			files = (
 				FF66B2351E68248F00360E4A /* ViewController.m in Sources */,
 				FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */,
+				FF0C26AA1F73CE1B006CF28D /* Contact.m in Sources */,
 				FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */,
 				FF66B22F1E68248F00360E4A /* main.m in Sources */,
 			);
