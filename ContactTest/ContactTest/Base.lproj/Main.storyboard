@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -68,12 +69,42 @@
                     <view key="view" contentMode="scaleToFill" id="LGx-tc-FV5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tR-XL-9Ek">
+                                <rect key="frame" x="16" y="94" width="83" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="xbF-7X-Kjf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rajesh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smb-mY-g9r">
+                                <rect key="frame" x="124" y="94" width="51.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lX9-Nk-7F1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="smb-mY-g9r" secondAttribute="trailing" constant="183.5" id="6kU-ZA-8yF"/>
+                            <constraint firstItem="3tR-XL-9Ek" firstAttribute="leading" secondItem="LGx-tc-FV5" secondAttribute="leadingMargin" id="Jk3-4c-QfF"/>
+                            <constraint firstItem="3tR-XL-9Ek" firstAttribute="top" secondItem="AZo-go-54K" secondAttribute="bottom" constant="30" id="f5v-e4-iTm"/>
+                            <constraint firstItem="smb-mY-g9r" firstAttribute="leading" secondItem="3tR-XL-9Ek" secondAttribute="trailing" constant="25" id="m3S-4Q-Gab"/>
+                            <constraint firstItem="smb-mY-g9r" firstAttribute="top" secondItem="AZo-go-54K" secondAttribute="bottom" constant="30" id="qii-YZ-txG"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="_firstNameValue" destination="smb-mY-g9r" id="IVi-oF-Ajm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2r2-sh-QKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582" y="234"/>
+            <point key="canvasLocation" x="1581.5999999999999" y="233.43328335832086"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aq2-tv-fQc">
