@@ -9,7 +9,6 @@
 #import "ContactDetailViewController.h"
 
 @interface ContactDetailViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *_firstNameValue;
 @property (weak) IBOutlet UIButton *button;
 
 
