@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C9196911F73CE3A00CC02AA /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9196901F73CE3A00CC02AA /* TestUI.swift */; };
 		FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */; };
 		FF66B22F1E68248F00360E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B22E1E68248F00360E4A /* main.m */; };
 		FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2311E68248F00360E4A /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C91968F1F73CE3900CC02AA /* ContactTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C9196901F73CE3A00CC02AA /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 		FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		FF66B22A1E68248F00360E4A /* ContactTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +135,8 @@
 			children = (
 				FF66B2471E68248F00360E4A /* ContactTestTests.m */,
 				FF66B2491E68248F00360E4A /* Info.plist */,
+				8C9196901F73CE3A00CC02AA /* TestUI.swift */,
+				8C91968F1F73CE3900CC02AA /* ContactTestTests-Bridging-Header.h */,
 			);
 			path = ContactTestTests;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 					};
 					FF66B2421E68248F00360E4A = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FF66B2291E68248E00360E4A;
 					};
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF66B2481E68248F00360E4A /* ContactTestTests.m in Sources */,
+				8C9196911F73CE3A00CC02AA /* TestUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,10 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ContactTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignet.ContactTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactTestTests/ContactTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactTest.app/ContactTest";
 			};
 			name = Debug;
@@ -467,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ContactTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vignet.ContactTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContactTestTests/ContactTestTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactTest.app/ContactTest";
 			};
 			name = Release;
