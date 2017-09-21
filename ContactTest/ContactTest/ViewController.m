@@ -35,6 +35,12 @@
     [UINavigationBar appearance].translucent = true;
 }
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -116,18 +122,19 @@
 //				var contactDelegate = new ContactViewControllerDelegate(ViewModel);
 //				contactController.Delegate = contactDelegate;
     
+    [self performSegueWithIdentifier:@"ContactDetailViewController" sender:NULL];
     
-    NSLog(@"contact id : %@", _contact.identifier);
-    
-    _contact = [self getContactFromStoreForIdentifier:@"03F40256-B484-43D7-B181-C5836333D9F0:ABPerson"];
-    
-    NSLog(@"contact id : %@", _contact.identifier);
-    CNContactViewController *controller = [CNContactViewController viewControllerForContact:_contact];
-    controller.allowsActions = false;
-    controller.allowsEditing = true;
-    controller.delegate = self;
-    
-    [self.navigationController pushViewController:controller animated:YES];
+//    NSLog(@"contact id : %@", _contact.identifier);
+//    
+//    _contact = [self getContactFromStoreForIdentifier:@"03F40256-B484-43D7-B181-C5836333D9F0:ABPerson"];
+//    
+//    NSLog(@"contact id : %@", _contact.identifier);
+//    CNContactViewController *controller = [CNContactViewController viewControllerForContact:_contact];
+//    controller.allowsActions = false;
+//    controller.allowsEditing = true;
+//    controller.delegate = self;
+//    
+//    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (CNContact*) getContactFromStoreForIdentifier:(NSString*) identifier

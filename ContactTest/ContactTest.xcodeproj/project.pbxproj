@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */; };
 		FF66B22F1E68248F00360E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B22E1E68248F00360E4A /* main.m */; };
 		FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2311E68248F00360E4A /* AppDelegate.m */; };
 		FF66B2351E68248F00360E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2341E68248F00360E4A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		FF66B22A1E68248F00360E4A /* ContactTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF66B22E1E68248F00360E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF66B2301E68248F00360E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				FF66B23B1E68248F00360E4A /* LaunchScreen.storyboard */,
 				FF66B23E1E68248F00360E4A /* Info.plist */,
 				FF66B22D1E68248F00360E4A /* Supporting Files */,
+				FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */,
+				FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */,
 			);
 			path = ContactTest;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			files = (
 				FF66B2351E68248F00360E4A /* ViewController.m in Sources */,
 				FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */,
+				FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */,
 				FF66B22F1E68248F00360E4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +516,7 @@
 				FF66B2591E68248F00360E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF66B25A1E68248F00360E4A /* Build configuration list for PBXNativeTarget "ContactTestTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				FF66B25C1E68248F00360E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF66B25D1E68248F00360E4A /* Build configuration list for PBXNativeTarget "ContactTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				FF66B25F1E68248F00360E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
