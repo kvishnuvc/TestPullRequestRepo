@@ -17,6 +17,7 @@
 		FF66B23D1E68248F00360E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF66B23B1E68248F00360E4A /* LaunchScreen.storyboard */; };
 		FF66B2481E68248F00360E4A /* ContactTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2471E68248F00360E4A /* ContactTestTests.m */; };
 		FF66B2531E68248F00360E4A /* ContactTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66B2521E68248F00360E4A /* ContactTestUITests.m */; };
+		FFBFEEEF1F7A545000807991 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBFEEEE1F7A545000807991 /* AddContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		FF66B24E1E68248F00360E4A /* ContactTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF66B2521E68248F00360E4A /* ContactTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTestUITests.m; sourceTree = "<group>"; };
 		FF66B2541E68248F00360E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBFEEED1F7A545000807991 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		FFBFEEEE1F7A545000807991 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				FF66B22D1E68248F00360E4A /* Supporting Files */,
 				FF0C26A51F73C309006CF28D /* ContactDetailViewController.h */,
 				FF0C26A61F73C309006CF28D /* ContactDetailViewController.m */,
+				FFBFEEED1F7A545000807991 /* AddContactViewController.h */,
+				FFBFEEEE1F7A545000807991 /* AddContactViewController.m */,
 			);
 			path = ContactTest;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				FF66B2351E68248F00360E4A /* ViewController.m in Sources */,
 				FF66B2321E68248F00360E4A /* AppDelegate.m in Sources */,
 				FF0C26A71F73C309006CF28D /* ContactDetailViewController.m in Sources */,
+				FFBFEEEF1F7A545000807991 /* AddContactViewController.m in Sources */,
 				FF66B22F1E68248F00360E4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -122,7 +122,6 @@
 
 - (IBAction)didSelectedEditContact:(id)sender
 {
-    
     [self performSegueWithIdentifier:@"ContactDetailViewController" sender:NULL];
 }
 
