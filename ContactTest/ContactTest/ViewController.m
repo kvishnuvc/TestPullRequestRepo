@@ -122,26 +122,7 @@
 
 - (IBAction)didSelectedEditContact:(id)sender
 {
-//    var contactController = CNContactViewController.FromContact(contact);
-//				contactController.AllowsActions = false;
-//				contactController.AllowsEditing = true;
-//    
-//				var contactDelegate = new ContactViewControllerDelegate(ViewModel);
-//				contactController.Delegate = contactDelegate;
-    
     [self performSegueWithIdentifier:@"ContactDetailViewController" sender:NULL];
-    
-//    NSLog(@"contact id : %@", _contact.identifier);
-//    
-//    _contact = [self getContactFromStoreForIdentifier:@"03F40256-B484-43D7-B181-C5836333D9F0:ABPerson"];
-//    
-//    NSLog(@"contact id : %@", _contact.identifier);
-//    CNContactViewController *controller = [CNContactViewController viewControllerForContact:_contact];
-//    controller.allowsActions = false;
-//    controller.allowsEditing = true;
-//    controller.delegate = self;
-//    
-//    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (CNContact*) getContactFromStoreForIdentifier:(NSString*) identifier
