@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+// This controller is added for adding contact 
 @interface AddContactViewController : UIViewController
 
 @end
